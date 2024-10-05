@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  background-color: rgb(34, 35, 35);
+  font-family: cursive;
+}
+
+h1 {
+  font-family: cursive;
+  margin: 1px auto;
+  color: aliceblue;
+  font-weight: lighter;
+  font-size: 40px;
+  text-shadow: 4px 4px 6px rgb(0, 253, 219);
+}
+#itsBoard {
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  display: grid;
+  background: linear-gradient(
+    to right,
+    rgb(130, 179, 240),
+    rgba(27, 1, 104, 0.973)
+  );
+  grid-template-columns: repeat(3, auto);
+}
+.cell {
+  width: 145px;
+  height: 145px;
+  border: 3px solid rgb(0, 0, 1);
+  box-shadow: 0 0 0 2px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 100px;
+  font-family: cursive;
+  text-shadow: 4px 4px 9px rgb(251, 251, 252);
+}
+#restart {
+  font-family: cursive;
+  font-size: 18px;
+  outline: none;
+  background: linear-gradient(
+    to bottom left,
+    rgb(156, 200, 255),
+    rgba(200, 115, 215, 0.849)
+  );
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+#restart:hover {
+  background: rgb(177, 197, 211);
+}
+
+#result {
+  color: aliceblue;
+}
+.section{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
